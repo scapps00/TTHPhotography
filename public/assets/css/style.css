@@ -44,3 +44,18 @@ a:link, a:visited, a:hover, a:active {
 #tth {
     letter-spacing: -10px;
 }
+
+.carousel-inner {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.carousel {
+    background-color: #96728e;
+
+}
+
+#enclose {
+    height: 1000px;
+}
