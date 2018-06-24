@@ -109,6 +109,21 @@ h5 {
     margin-bottom: 20px;
 }
 
+#serving {
+    font-size: 25px;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin-right: 15px;
+}
+
+#tracy {
+    border: 1px solid #96728e;
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
 @media (max-width: 1200px) {
 
     h5 {
@@ -132,26 +147,11 @@ h5 {
     }
 
     #tracy {
-        width: 65%;
+        width: 85%;
     }
 
     #tth {
         letter-spacing: -5px;
     }
 
-}
-
-#serving {
-    font-size: 25px;
-    position: absolute;
-    right: 0px;
-    top: 70px;
-    margin-right: 15px;
-}
-
-#tracy {
-    border: 1px solid #96728e;
-    display: block;
-    margin: auto;
-    width: 300px;
 }
