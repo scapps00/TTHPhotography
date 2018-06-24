@@ -46,12 +46,6 @@ a:link, a:visited, a:hover, a:active {
     letter-spacing: -10px;
 }
 
-.carousel-inner {
-    width: 70%;
-    display: block;
-    margin: auto;
-}
-
 #enclose {
     background-color: #96728e;
     padding: 40px;
@@ -109,4 +103,24 @@ h5 {
 
 .x {
     padding: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+
+    h5 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h5 {
+        font-size: 35px;
+    }
+
 }
