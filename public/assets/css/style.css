@@ -2,6 +2,7 @@ body {
     background-color: #5D153F;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
+    font-size: 20px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -33,7 +34,7 @@ a:link, a:visited, a:hover, a:active {
 #copy {
     height: 100px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     vertical-align: center;
 }
 
@@ -51,11 +52,27 @@ a:link, a:visited, a:hover, a:active {
     margin: auto;
 }
 
-.carousel {
+#enclose {
     background-color: #96728e;
-
+    padding: 40px;
+    text-align: center;
 }
 
-#enclose {
-    height: 1000px;
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    border: 1px #5D153F solid;
+}
+
+.card-body {
+    background-color: #5D153F;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
 }
